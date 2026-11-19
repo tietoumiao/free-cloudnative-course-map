@@ -1,0 +1,1402 @@
+{
+  "name": "free-cloudnative-course-map",
+  "description": "云原生/运维方向的免费公开课地图：按学习主题整理可长期访问的免费视频与官方文档，全部链接经过实测。",
+  "license": "CC-BY-SA-4.0",
+  "updatedAt": "2026-11-19",
+  "verification": "B 站链接通过 api.bilibili.com/x/web-interface/view 校验 BV 号、标题与 UP 主；文档链接校验 HTTP 200。共 109 条。",
+  "chapters": [
+    {
+      "id": "01",
+      "title": "Linux系统管理",
+      "topics": [
+        "Linux 安装与网络配置",
+        "用户与权限管理",
+        "包管理与自定义源",
+        "磁盘分区与 LVM",
+        "进程与系统负载",
+        "内核与网络栈",
+        "ssh 与 cron",
+        "iptables/firewalld"
+      ],
+      "resources": [
+        {
+          "title": "【全748集】目前B站最全最细的云计算Linux零基础全套教程，2026最新版，包含所有干货！七天就能从小白到大神！少走99%的弯路！存下吧！很难找全的！",
+          "author": "云计算入门到精通",
+          "url": "https://www.bilibili.com/video/BV14PDxBVEpT",
+          "type": "video",
+          "episodes": 61,
+          "covers": "硬件组成/安装与目录/用户组权限/进程管理/软件包管理/磁盘与LVM/cron/ssh/防火墙",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【2026最新】Linux操作系统教程，很全，适合自学党！Linux运维必看！零基础自学到精通有这一套课程就够了！",
+          "author": "喝茶敲代码修电脑",
+          "url": "https://www.bilibili.com/video/BV1gX4i6oEMv",
+          "type": "video",
+          "episodes": 31,
+          "covers": "系统安装/远程登录/权限/vim/磁盘/进程/服务与定时任务/内核机制",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "02",
+      "title": "shell开发实战",
+      "topics": [
+        "脚本编写规范与执行方式",
+        "变量、参数与表达式",
+        "流程控制与条件判断",
+        "实战脚本",
+        "函数与数组",
+        "expect 免交互",
+        "grep/sed/awk 文本三剑客"
+      ],
+      "resources": [
+        {
+          "title": "【2025新版】B站强推【Shell脚本编程课程】从零基础入门到精通，（shell脚本_shell自动化运维_shell编程）运维工程师必看！",
+          "author": "跟着小帅学编程",
+          "url": "https://www.bilibili.com/video/BV1PHQzYXEyt",
+          "type": "video",
+          "episodes": 44,
+          "covers": "脚本规范/变量/流程控制/实战脚本/函数",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【2025新版】Linux三剑客全套教程！从零到实战一套搞定（Linux运维学习极速入门，零基础必备）包含grep、sed、awk入门到精通有这一套足够了！",
+          "author": "跟着小常学编程",
+          "url": "https://www.bilibili.com/video/BV18cEczjEvi",
+          "type": "video",
+          "episodes": 61,
+          "covers": "grep与正则/sed/awk",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Linux Bash Shell脚本编程入门 中英字幕 1080P",
+          "author": "码农的洋墨水",
+          "url": "https://www.bilibili.com/video/BV17ZRWBPEh8",
+          "type": "video",
+          "episodes": 3,
+          "covers": "条件判断/循环/函数/重定向",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "expect编程",
+          "author": "DreamNotOver",
+          "url": "https://www.bilibili.com/video/BV1zM411r71r",
+          "type": "video",
+          "episodes": 1,
+          "covers": "expect 免交互自动化",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "03",
+      "title": "分布式集群架构实战",
+      "topics": [
+        "网络分层与协议基础",
+        "虚拟化与 SDN",
+        "集群性能指标",
+        "CDN 原理与落地",
+        "LVS/nginx/haproxy 负载均衡",
+        "keepalived 高可用",
+        "HTTP 协议与抓包",
+        "应用部署与 tomcat",
+        "nginx 性能优化",
+        "HTTPS 与证书"
+      ],
+      "resources": [
+        {
+          "title": "尚硅谷Linux集群教程(linux集群经典之作)",
+          "author": "尚硅谷",
+          "url": "https://www.bilibili.com/video/BV1Db411G7pf",
+          "type": "video",
+          "episodes": 66,
+          "covers": "LVS三模式/keepalived高可用/多级负载/CDN",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "强推！不愧是B站最详细讲解的【Nginx高级】系列课程教程，让你自学nginx少走99%的弯路！入门必须懂功能配置 Web服务器/反向代理/负载均衡",
+          "author": "鹅厂编程高工手记",
+          "url": "https://www.bilibili.com/video/BV1NaPdePE7Y",
+          "type": "video",
+          "episodes": 73,
+          "covers": "OSI/IO模型/nginx虚拟主机/负载均衡",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【全80集】Nginx零基础到精通教程，从浅入深讲解（适合小白学习）",
+          "author": "暴龙Boy",
+          "url": "https://www.bilibili.com/video/BV18fAAznEnz",
+          "type": "video",
+          "episodes": 80,
+          "covers": "rewrite/反向代理/SSL与HTTPS/动静分离",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "2025最新最详细教程完整版【Nginx架构实战】从入门到实战一套搞定，运维技术猛涨！！（反向代理 负载均衡 动静分离）学不会我倒立洗头！",
+          "author": "跟着小琪学编程",
+          "url": "https://www.bilibili.com/video/BV1JBcveZEQK",
+          "type": "video",
+          "episodes": 27,
+          "covers": "TCP/HTTP协议/三次握手/socket/nginx架构",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "04",
+      "title": "mysql高级DBA实战",
+      "topics": [
+        "SQL 开发与权限",
+        "存储引擎",
+        "索引与慢查询优化",
+        "事务与 redo/undo",
+        "锁机制与隔离级别",
+        "备份恢复与迁移",
+        "主从复制与 MHA",
+        "MySQL 8.0 新特性"
+      ],
+      "resources": [
+        {
+          "title": "【MySQL教程】这绝对是你看过最好的MySQL数据库教程完整版全集，从底层原理到mysql调优实战及面试题全讲明白了！整整6小时（建议收藏）",
+          "author": "图灵学院官方",
+          "url": "https://www.bilibili.com/video/BV1UcKoz6E4S",
+          "type": "video",
+          "episodes": 39,
+          "covers": "索引B+树/执行计划/InnoDB/redo-undo/ACID/隔离级别/锁与MVCC/8.0特性",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "MYSQL数据库主从复制及MHA高可用改造",
+          "author": "混合云架构师星海",
+          "url": "https://www.bilibili.com/video/BV1yo17BTEsD",
+          "type": "video",
+          "episodes": 1,
+          "covers": "主从复制原理/binlog格式/MHA切换",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "05",
+      "title": "redis缓存",
+      "topics": [
+        "持久化 RDB/AOF",
+        "缓存穿透/击穿/雪崩",
+        "主从、哨兵与集群",
+        "双写一致性与延时双删",
+        "CAP 与一致性模型",
+        "canal 订阅 binlog",
+        "大 key 治理"
+      ],
+      "resources": [
+        {
+          "title": "黑马Redis进阶教程，分布式缓存，多级缓存，Redis企业实践经验总结",
+          "author": "黑马Java",
+          "url": "https://www.bilibili.com/video/BV1xF411R7Z9",
+          "type": "video",
+          "episodes": 49,
+          "covers": "RDB-AOF/主从/哨兵/分片集群/Canal/BigKey",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【2026版】这可能是B站唯一将Redis实战全套讲明白的教程，涵盖redis底层原理，redis分布式锁，高并发场景缓存穿透、击穿、雪崩，redis数据结构",
+          "author": "12点就睡的林同学",
+          "url": "https://www.bilibili.com/video/BV1EgvpBmES6",
+          "type": "video",
+          "episodes": 33,
+          "covers": "IO多路复用/持久化/穿透击穿雪崩/双写一致性",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "06",
+      "title": "kafka架构与实战",
+      "topics": [
+        "生产消费模型",
+        "削峰填谷",
+        "分区与多副本",
+        "ack 策略",
+        "消息存储与稀疏索引",
+        "pull/push 消费",
+        "客户端示例"
+      ],
+      "resources": [
+        {
+          "title": "尚硅谷Kafka教程(消息队列kafka快速入门)",
+          "author": "尚硅谷",
+          "url": "https://www.bilibili.com/video/BV1a4411B7V9",
+          "type": "video",
+          "episodes": 43,
+          "covers": "架构/topic分区/稀疏索引/ACK/ISR/消费者组/削峰",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "B站讲的最细的Kafka从入门到实战全套视频教程（2025最新版），带你彻底掌握kafka底层原理与案例源码！比啃书效果好多了！",
+          "author": "大模型碎碎念",
+          "url": "https://www.bilibili.com/video/BV1R1YCzjEhv",
+          "type": "video",
+          "episodes": 15,
+          "covers": "集群搭建/客户端/分区路由/幂等与事务",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Kafka集群从零到高可用",
+          "author": "onedayhigh",
+          "url": "https://www.bilibili.com/video/BV1zdjq67EfV",
+          "type": "video",
+          "episodes": 1,
+          "covers": "副本与ISR/ZK与KRaft部署",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "07",
+      "title": "秒杀系统设计",
+      "topics": [
+        "秒杀场景高性能设计",
+        "高一致性方案",
+        "高可用方案",
+        "动静分离与缓存",
+        "库存扣减与防超卖",
+        "流量削峰"
+      ],
+      "resources": [
+        {
+          "title": "B站强推！这绝对是2026年讲的最好的Java高并发秒杀系统核心架构教程，涵盖所有面试核心知识点，让你少走99%弯路",
+          "author": "图灵教育-诸葛",
+          "url": "https://www.bilibili.com/video/BV1Vr5k6jE8B",
+          "type": "video",
+          "episodes": 9,
+          "covers": "CDN静态化/多级限流/Redis+Lua预扣减/MQ削峰/防超卖",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "优极限【完整项目实战】半天带你用-springBoot、Redis轻松实现Java高并发秒杀系统-我们要能够撑住100W级压力",
+          "author": "乐字节xyx小可爱qwq",
+          "url": "https://www.bilibili.com/video/BV1sf4y1L7KE",
+          "type": "video",
+          "episodes": 66,
+          "covers": "页面静态化/预减库存/乐观锁/接口防刷",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "这绝对是你2025见过的高质量Redis缓存架构实战，解决缓存穿透/缓存与数据库双写不一致问题，少走99%弯路！",
+          "author": "小七七是仙女呐",
+          "url": "https://www.bilibili.com/video/BV1Mj7WzrEEF",
+          "type": "video",
+          "episodes": 10,
+          "covers": "冷热分离/缓存击穿穿透/热点重建",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "中科大郑老师《计算机网络》之 内容分发网络CDN",
+          "author": "中科大-郑烇老师",
+          "url": "https://www.bilibili.com/video/BV1ca4y1x7rb",
+          "type": "video",
+          "episodes": 1,
+          "covers": "CDN原理与调度",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "08",
+      "title": "同城双活、两地三中心、异地多活",
+      "topics": [
+        "冷备与热备",
+        "同城双活",
+        "两地三中心",
+        "异地多活架构"
+      ],
+      "resources": [
+        {
+          "title": "服务稳定性建设高可架构与多活治理",
+          "author": "dbaplus社群",
+          "url": "https://www.bilibili.com/video/BV1PXDSYEEQJ",
+          "type": "video",
+          "episodes": 1,
+          "covers": "同城/异地多活/单元化",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "「HCIE 2.0（云服务）综合实验（两地三中心）」01_实验介绍",
+          "author": "拂晓的海洋",
+          "url": "https://www.bilibili.com/video/BV11s4y187oR",
+          "type": "video",
+          "episodes": 1,
+          "covers": "两地三中心规划实施",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "千万 QPS 架构，第 138 讲：「异地多活：从灾备到常态」",
+          "author": "柒衡科技柯杰",
+          "url": "https://www.bilibili.com/video/BV1AaLp6yESX",
+          "type": "video",
+          "episodes": null,
+          "covers": "冷备热备到多活演进",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "09",
+      "title": "sre网站稳定性建设",
+      "topics": [
+        "稳定性指标 SLA/SLO",
+        "微服务雪崩",
+        "限流与令牌桶",
+        "熔断与降级",
+        "预案与稳定性建设"
+      ],
+      "resources": [
+        {
+          "title": "SLO运营体系与报警：如何从工程理论探索到最佳实践",
+          "author": "dbaplus社群",
+          "url": "https://www.bilibili.com/video/BV1JHDSYzEGD",
+          "type": "video",
+          "episodes": 1,
+          "covers": "SLA-SLO-SLI/稳定性体系",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "什么叫熔断和降级？",
+          "author": "计算机大白话",
+          "url": "https://www.bilibili.com/video/BV1AuKz6wEEa",
+          "type": "video",
+          "episodes": null,
+          "covers": "熔断三态与降级兜底",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "180分钟带你手写面试常问四种分布式限流算法，Java面试少走99%弯路",
+          "author": "AI智能体实战课",
+          "url": "https://www.bilibili.com/video/BV1DF4m1L7fi",
+          "type": "video",
+          "episodes": 11,
+          "covers": "计数器/滑窗/漏桶/令牌桶",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Google SRE 对待故障应急处理的方法论",
+          "author": "中国DevOps社区",
+          "url": "https://www.bilibili.com/video/BV1eH4y1M7eV",
+          "type": "video",
+          "episodes": 1,
+          "covers": "预案与故障演练",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "分布式集群架构演进及分库分表分区",
+      "topics": [
+        "单体到多级缓存演进",
+        "数据库集群与读写分离",
+        "垂直/水平拆分",
+        "分库分表中间件",
+        "TiDB 分布式数据库",
+        "搜索引擎与 ES"
+      ],
+      "resources": [
+        {
+          "title": "尚硅谷Sharding Sphere，Sharding JDBC，分库分表利器，数据库中间件",
+          "author": "尚硅谷",
+          "url": "https://www.bilibili.com/video/BV1LK411s7RX",
+          "type": "video",
+          "episodes": 23,
+          "covers": "垂直水平拆分/分片算法/读写分离",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "17.MySQL集群解决方案（主从复制、PXC集群、MyCat、HAProxy）",
+          "author": "姑苏第一包子",
+          "url": "https://www.bilibili.com/video/BV1R4411s7zi",
+          "type": "video",
+          "episodes": 27,
+          "covers": "读写分离与中间件",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【赵渝强老师】TiDB数据库从零开始",
+          "author": "赵渝强老师",
+          "url": "https://www.bilibili.com/video/BV18QofYaEwp",
+          "type": "video",
+          "episodes": 1,
+          "covers": "TiDB/TiKV/PD架构",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【尚硅谷】ElasticSearch教程入门到精通（基于ELK技术栈elasticsearch 7.x+8.x新特性）",
+          "author": "尚硅谷",
+          "url": "https://www.bilibili.com/video/BV1hh411D7sb",
+          "type": "video",
+          "episodes": null,
+          "covers": "倒排索引/集群分片/DSL",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Ansible应用与剧本开发实战",
+      "topics": [
+        "ad-hoc 与 playbook",
+        "变量层级与 facts",
+        "流程控制与异常处理",
+        "jinja2 模板",
+        "roles 与剧本复用"
+      ],
+      "resources": [
+        {
+          "title": "ansible和playbook和role运维实战教程",
+          "author": "运维实战课程",
+          "url": "https://www.bilibili.com/video/BV1oX4y1z7Kr",
+          "type": "video",
+          "episodes": 11,
+          "covers": "ad-hoc/playbook/变量facts/roles",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Ansible入门到精通，零基础入门Ansible自动化运维",
+          "author": "高鲲教育",
+          "url": "https://www.bilibili.com/video/BV1KSXKBZE3Z",
+          "type": "video",
+          "episodes": 8,
+          "covers": "模块/playbook应用",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "70分钟一口气学完ansible自动化运维！带你掌握ansible所有核心知识点，全程干货，无废话！",
+          "author": "一起学运维",
+          "url": "https://www.bilibili.com/video/BV1kN4y187YM",
+          "type": "video",
+          "episodes": 49,
+          "covers": "register变量/jinja2模板",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Using Ansible playbooks &mdash; Ansible Community Documentation",
+          "author": "Ansible Community",
+          "url": "https://docs.ansible.com/ansible/latest/playbook_guide/index.html",
+          "type": "doc",
+          "episodes": null,
+          "covers": "官方playbook/roles文档",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "12",
+      "title": "容器技术成神之路",
+      "topics": [
+        "虚拟化与容器原理",
+        "手写容器引擎",
+        "OCI/containerd/runc",
+        "docker 网络模式",
+        "cgroup 与性能隔离",
+        "容器 GPU"
+      ],
+      "resources": [
+        {
+          "title": "手撕迷你Docker：200行C代码实现容器的namespace+cgroup+overlayfs",
+          "author": "DeeparchWorks",
+          "url": "https://www.bilibili.com/video/BV1gAXhBTEJz",
+          "type": "video",
+          "episodes": null,
+          "covers": "手写容器引擎/三大支柱",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Linux命令精讲之docker进阶-底层原理",
+          "author": "全栈二把刀",
+          "url": "https://www.bilibili.com/video/BV1Ljn56nETz",
+          "type": "video",
+          "episodes": null,
+          "covers": "OCI/containerd与runc",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "40分钟的Docker实战攻略，一期视频精通Docker",
+          "author": "技术爬爬虾",
+          "url": "https://www.bilibili.com/video/BV1THKyzBER6",
+          "type": "video",
+          "episodes": 1,
+          "covers": "镜像容器/网络模式",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "容器里也能跑GPU？Docker 拿到显卡的全过程，完整拆解！",
+          "author": "内核聊内核",
+          "url": "https://www.bilibili.com/video/BV1LVHr6wEv2",
+          "type": "video",
+          "episodes": 1,
+          "covers": "GPU透传与nvidia-container-runtime",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "title": "k8s云原生从入门到深入实战",
+      "topics": [
+        "云原生架构组件",
+        "List-Watch 机制",
+        "kubeadm/二进制安装",
+        "资源对象操作",
+        "Pod 创建与调度流程",
+        "CNI（flannel/calico）",
+        "控制器与 HPA"
+      ],
+      "resources": [
+        {
+          "title": "【尚硅谷】Kubernetes（k8s）入门到实战教程丨全新升级完整版",
+          "author": "尚硅谷",
+          "url": "https://www.bilibili.com/video/BV1GT4y1A756",
+          "type": "video",
+          "episodes": null,
+          "covers": "架构/安装/资源/网络/控制器/Helm",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Kubernetes(K8S) 入门进阶实战完整教程，黑马程序员K8S全套教程（基础+高级）",
+          "author": "黑马Java",
+          "url": "https://www.bilibili.com/video/BV1Qv41167ck",
+          "type": "video",
+          "episodes": 85,
+          "covers": "集群安装/Pod/Service/网络/HPA",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "K8s/Kubernetes 完整教程，从集群部署、Pod/Service 到 Ingress、ConfigMap 与容器编排实战，老男孩运维带你吃透企业级云原",
+          "author": "老男孩IT教育",
+          "url": "https://www.bilibili.com/video/BV1e2s269EBt",
+          "type": "video",
+          "episodes": null,
+          "covers": "部署与资源操作",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "K8s入门到精通，B站最火k8s教程，Kubernetes实战",
+          "author": "尚硅谷",
+          "url": "https://www.bilibili.com/video/BV1w4411y7Go",
+          "type": "video",
+          "episodes": 70,
+          "covers": "List-Watch/kubeadm/Flannel/Pod流程",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "14",
+      "title": "k8s定制开发及底层源码剖析",
+      "topics": [
+        "API 设计与版本",
+        "CRD 与 CR",
+        "client-go 与 informer",
+        "Operator 开发",
+        "admission webhook",
+        "源码剖析"
+      ],
+      "resources": [
+        {
+          "title": "2022年最新k8s编程operator篇-12.自定义资源(CRD)简介",
+          "author": "账号注销20241001",
+          "url": "https://www.bilibili.com/video/BV1LY4y1i7Ly",
+          "type": "video",
+          "episodes": 1,
+          "covers": "CRD与Operator模型",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "2022年最新k8s编程operator篇-11.client-go项目实战(下)：部署",
+          "author": "账号注销20241001",
+          "url": "https://www.bilibili.com/video/BV1hS4y1m7CT",
+          "type": "video",
+          "episodes": 1,
+          "covers": "client-go与controller实现",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "一、3、k8s二次开发之如何扩展kubernetes系统",
+          "author": "AIOps架构师",
+          "url": "https://www.bilibili.com/video/BV12F411a7qR",
+          "type": "video",
+          "episodes": 1,
+          "covers": "CRD/Aggregator/Webhook扩展方式",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【2023最新版】k8s进阶教程教程，带你0基础成为k8s架构师，解决各种实践中所遇到的问题（临时容器，Ratel，准入控制，服务质量QoS，权限管理）",
+          "author": "凉柚船长",
+          "url": "https://www.bilibili.com/video/BV1LL411z7cE",
+          "type": "video",
+          "episodes": 28,
+          "covers": "准入控制与权限",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "15",
+      "title": "k8s实战进阶",
+      "topics": [
+        "ConfigMap 与 Secret",
+        "RBAC 认证授权",
+        "Service 与 Ingress",
+        "灰度与金丝雀",
+        "CoreDNS 与服务发现",
+        "调度：亲和/污点/拓扑",
+        "descheduler 与驱逐",
+        "存储卷与 StorageClass",
+        "Helm 与高可用升级"
+      ],
+      "resources": [
+        {
+          "title": "【尚硅谷】Kubernetes（k8s）入门到实战教程丨全新升级完整版",
+          "author": "尚硅谷",
+          "url": "https://www.bilibili.com/video/BV1GT4y1A756",
+          "type": "video",
+          "episodes": null,
+          "covers": "ConfigMap-Secret/Service/Ingress/DNS/调度/存储/Helm",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Kubernetes(K8S) 入门进阶实战完整教程，黑马程序员K8S全套教程（基础+高级）",
+          "author": "黑马Java",
+          "url": "https://www.bilibili.com/video/BV1Qv41167ck",
+          "type": "video",
+          "episodes": 85,
+          "covers": "Service/Ingress/调度存储",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【全站第一】Kubernetes零基础入门到精通教程 |【K8S教程】【适合小白】",
+          "author": "河馬大王",
+          "url": "https://www.bilibili.com/video/BV1etn3zxEAP",
+          "type": "video",
+          "episodes": 198,
+          "covers": "Service/Ingress/存储/Helm",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "16",
+      "title": "prometheus监控实战",
+      "topics": [
+        "架构与部署",
+        "exporter 与服务发现",
+        "PromQL",
+        "Grafana 出图",
+        "Alertmanager 与钉钉",
+        "prometheus-operator",
+        "blackbox 探测"
+      ],
+      "resources": [
+        {
+          "title": "300分钟讲透Prometheus快速入门到实战全套教程 | Spring Boot整合Prometheus | k8s部署coredns监控！",
+          "author": "图灵徐庶",
+          "url": "https://www.bilibili.com/video/BV17vXeYaECa",
+          "type": "video",
+          "episodes": 14,
+          "covers": "架构/PromQL/exporter/服务发现",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "花了八千多买的Prometheus教程全套，现在分享给大家，Prometheus监控入门到精通(运维开发教程)",
+          "author": "拒绝加班的程序猿",
+          "url": "https://www.bilibili.com/video/BV1m54y1o79r",
+          "type": "video",
+          "episodes": 48,
+          "covers": "Alertmanager/Grafana/K8s监控",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "如何使用 Prometheus 监控 Kubernetes 集群？",
+          "author": "大数据老司机",
+          "url": "https://www.bilibili.com/video/BV1Kn4y1o77w",
+          "type": "video",
+          "episodes": 1,
+          "covers": "kube-state-metrics/operator体系",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "title": "日志收集与分析架构ELK、EFK、Loki从原理到实战",
+      "topics": [
+        "日志采集方案",
+        "filebeat/logstash/fluentd",
+        "EFK + Kafka",
+        "ES 与 Kibana 部署",
+        "索引与出图",
+        "Loki"
+      ],
+      "resources": [
+        {
+          "title": "【千锋教育】最新版ELK分布式日志处理解决方案（完整版）",
+          "author": "千锋教育",
+          "url": "https://www.bilibili.com/video/BV1XZ4y1M77Y",
+          "type": "video",
+          "episodes": 13,
+          "covers": "ES/Logstash/Kibana/Filebeat",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "2025最新ElasticStack（ELK）ES日志收集实战项目视频教程（包括ElasticSearch、kibana、logstash）",
+          "author": "老男孩IT",
+          "url": "https://www.bilibili.com/video/BV1P8ncz5EWd",
+          "type": "video",
+          "episodes": 38,
+          "covers": "采集到出图全流程",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "尚硅谷大数据Filebeat教程（filebeat日志采集系统）",
+          "author": "尚硅谷",
+          "url": "https://www.bilibili.com/video/BV1WK41117dA",
+          "type": "video",
+          "episodes": 9,
+          "covers": "Filebeat与Kafka对接",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Loki 实战，安装 Promtail，监控本地 Django 日志文件，上传 Loki 并通过 Grafana 搜索日志",
+          "author": "程序猿小当家",
+          "url": "https://www.bilibili.com/video/BV1d84y1i7Tc",
+          "type": "video",
+          "episodes": 1,
+          "covers": "Loki轻量日志方案",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "18",
+      "title": "某大厂云原生项目-智慧城市-AI图像识别",
+      "topics": [
+        "HDFS/YARN/MapReduce",
+        "Spark 架构与运行模式",
+        "GPU 与 vGPU",
+        "Operator 开发实战"
+      ],
+      "resources": [
+        {
+          "title": "Hadoop教程，大数据hadoop3.x搭建到集群调优（MapReduce、YARN、HDFS）",
+          "author": "尚硅谷",
+          "url": "https://www.bilibili.com/video/BV1Qp4y1n7EN",
+          "type": "video",
+          "episodes": 178,
+          "covers": "HDFS/YARN/MapReduce",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Spark视频教程，Spark3.x新版教程，一套搞定大数据Spark",
+          "author": "尚硅谷",
+          "url": "https://www.bilibili.com/video/BV12142167BL",
+          "type": "video",
+          "episodes": 157,
+          "covers": "Spark架构/RDD/on YARN",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "1-K8S进阶必备技能：自定义资源CRD与Operator开发 | 干货教学 |零基础也可上手实践",
+          "author": "程序员暮闲",
+          "url": "https://www.bilibili.com/video/BV1itzyBJEHa",
+          "type": "video",
+          "episodes": 1,
+          "covers": "CRD/调谐/Operator发布",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "GPU 虚拟化技术分享 - 王老师",
+          "author": "泰晓科技",
+          "url": "https://www.bilibili.com/video/BV1gT411J7SE",
+          "type": "video",
+          "episodes": 1,
+          "covers": "GPU虚拟化与vGPU",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "title": "某大厂研发效能项目-微服务容器云平台环境治理",
+      "topics": [
+        "泳道设计",
+        "多 SET 环境",
+        "istio sidecar 流量接管",
+        "服务发现与寻址",
+        "分支与环境治理"
+      ],
+      "resources": [
+        {
+          "title": "【Istio Workshop/教程】第八讲：Sidecar模式和透明流量劫持",
+          "author": "云原生社区",
+          "url": "https://www.bilibili.com/video/BV1cF411T72o",
+          "type": "video",
+          "episodes": 1,
+          "covers": "sidecar与流量劫持",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "k8s服务网格(Service Mesh)的istio灰度发布产品实战教程",
+          "author": "运维实战课程",
+          "url": "https://www.bilibili.com/video/BV1PRmhYsEAD",
+          "type": "video",
+          "episodes": 9,
+          "covers": "VirtualService/DestinationRule",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "平安银行端到端全链路灰度验证实践",
+          "author": "dbaplus社群",
+          "url": "https://www.bilibili.com/video/BV1GC4y1V7RQ",
+          "type": "video",
+          "episodes": 1,
+          "covers": "泳道与多环境验证",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "微服务中的服务注册与发现机制",
+          "author": "程序猿DD",
+          "url": "https://www.bilibili.com/video/BV1Hvs6eBEyU",
+          "type": "video",
+          "episodes": 1,
+          "covers": "注册发现",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "title": "赠送项目-k8s CICD项目",
+      "topics": [
+        "Jenkins 主从与动态 slave",
+        "GitLab 与 Harbor",
+        "Jenkinsfile 流水线",
+        "发布与回滚"
+      ],
+      "resources": [
+        {
+          "title": "68.基于 K8S 的动态 Jenkins Slave",
+          "author": "im_bili_vip",
+          "url": "https://www.bilibili.com/video/BV18z421i7oB",
+          "type": "video",
+          "episodes": null,
+          "covers": "动态slave",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "44_第十九章Jenkins+Gitlab+Harbor+K8S自动构建镜像DevOPS平台",
+          "author": "大有希萌神",
+          "url": "https://www.bilibili.com/video/BV1L5L6zFEw3",
+          "type": "video",
+          "episodes": 1,
+          "covers": "全链路流水线",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "30分钟jenkins+gitlab中pipeline流水线讲解",
+          "author": "椰奶不爱西米露",
+          "url": "https://www.bilibili.com/video/BV1orUYBVEEX",
+          "type": "video",
+          "episodes": 1,
+          "covers": "Jenkinsfile",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Harbor私有镜像仓库搭建与镜像管理实战教程",
+          "author": "ThinkMo",
+          "url": "https://www.bilibili.com/video/BV1k6HezzENy",
+          "type": "video",
+          "episodes": 1,
+          "covers": "Harbor",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "21",
+      "title": "赠送项目-分布式存储ceph项目",
+      "topics": [
+        "RADOS 与 PG",
+        "CRUSH 算法",
+        "cache tiering 与 bluestore",
+        "OpenStack 对接",
+        "运维与排障"
+      ],
+      "resources": [
+        {
+          "title": "2小时轻松部署分布式存储Ceph高可用集群 【2小时纯干货输出】",
+          "author": "马哥教育实战",
+          "url": "https://www.bilibili.com/video/BV16a411j78Q",
+          "type": "video",
+          "episodes": 8,
+          "covers": "MON-OSD-MGR部署",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Ceph的存储原理",
+          "author": "皇帝的新依-",
+          "url": "https://www.bilibili.com/video/BV1Wm4y1V74n",
+          "type": "video",
+          "episodes": 1,
+          "covers": "RADOS/PG",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Ceph CRUSH算法(一）",
+          "author": "wharton0",
+          "url": "https://www.bilibili.com/video/BV1be1cYBEXB",
+          "type": "video",
+          "episodes": 1,
+          "covers": "CRUSH",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Ceph对接OpenStack Glance",
+          "author": "zcloudedu",
+          "url": "https://www.bilibili.com/video/BV1gY516EEcm",
+          "type": "video",
+          "episodes": 1,
+          "covers": "私有云对接",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "22",
+      "title": "python开发",
+      "topics": [
+        "Python 基础与数据类型",
+        "模块与包",
+        "面向对象",
+        "Socket 通信",
+        "并发编程",
+        "数据库开发",
+        "Django"
+      ],
+      "resources": [
+        {
+          "title": "黑马程序员Python教程_600集Python从入门到精通教程（懂中文就能学会）",
+          "author": "黑马程序员",
+          "url": "https://www.bilibili.com/video/BV1ex411x7Em",
+          "type": "video",
+          "episodes": null,
+          "covers": "基础/数据类型/OOP/模块",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Python Socket网络编程",
+          "author": "白月黑羽编程",
+          "url": "https://www.bilibili.com/video/BV1a7411z75u",
+          "type": "video",
+          "episodes": 5,
+          "covers": "Socket",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【2021最新版】Python 并发编程实战，用多线程、多进程、多协程加速程序运行",
+          "author": "蚂蚁学Python",
+          "url": "https://www.bilibili.com/video/BV1bK411A7tV",
+          "type": "video",
+          "episodes": 10,
+          "covers": "并发编程",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "编写你的第一个 Django 应用，第 1 部分 | Django 文档 | Django",
+          "author": "Django基金会",
+          "url": "https://docs.djangoproject.com/zh-hans/5.0/intro/tutorial01/",
+          "type": "doc",
+          "episodes": null,
+          "covers": "Django入门",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "title": "CMDB项目（python全栈开发）",
+      "topics": [
+        "资产采集：Agent/SSH/SaltStack",
+        "Django API 与权限",
+        "Redis 缓存与 token",
+        "数据清洗入库",
+        "前端 ECharts"
+      ],
+      "resources": [
+        {
+          "title": "【老男孩教育】python--CMDB资产管理系统项目 #完结",
+          "author": "逆风微笑的代码狗",
+          "url": "https://www.bilibili.com/video/BV11Z4y1s79H",
+          "type": "video",
+          "episodes": 61,
+          "covers": "CMDB全流程",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "B站最全最细致的Python自动化运维从入门到精通！",
+          "author": "字节跳动大侠",
+          "url": "https://www.bilibili.com/video/BV1Zb9iYMEjV",
+          "type": "video",
+          "episodes": 170,
+          "covers": "资产采集/SSH",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Linux懒人运维：8分钟搞定SaltStack自动化工具安装和使用",
+          "author": "Linux懒人运维",
+          "url": "https://www.bilibili.com/video/BV1iSanzHE9Q",
+          "type": "video",
+          "episodes": 1,
+          "covers": "Saltstack",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "ECharts数据可视化项目-大屏数据可视化展示-echarts 图表制作-pink老师直播课更新完毕）",
+          "author": "黑马pink讲前端",
+          "url": "https://www.bilibili.com/video/BV1v7411R7mp",
+          "type": "video",
+          "episodes": 53,
+          "covers": "ECharts前端",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Ubuntu24.04.3LTS版最新k8s1.34架构部署实战",
+      "topics": [
+        "系统与静态网络规划",
+        "containerd 运行时",
+        "apt 仓库与 kubeadm",
+        "新版本部署验证"
+      ],
+      "resources": [
+        {
+          "title": "01-如何基于Ubuntu 24.04操作系统部署原生K8S 1.31集群？本期内容介绍",
+          "author": "慧闲大大",
+          "url": "https://www.bilibili.com/video/BV1heHre7EA3",
+          "type": "video",
+          "episodes": 1,
+          "covers": "Ubuntu24.04+containerd+kubeadm",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【2026最新版】Containerd容器管理全流程攻略！从入门安装到管理精通，全程干货不废话~",
+          "author": "八方网域_老唐",
+          "url": "https://www.bilibili.com/video/BV1inrrBLEVT",
+          "type": "video",
+          "episodes": 21,
+          "covers": "containerd安装配置",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【k8s 1.37】集群部署避坑指南：装之前必须定好的 10 件事！｜AI大模型｜运维｜环境部署｜k8s教程｜k8s入门｜k8s项目｜k8s集群｜k8s部署",
+          "author": "程序员阿杉",
+          "url": "https://www.bilibili.com/video/BV1gTxq6WEK7",
+          "type": "video",
+          "episodes": 42,
+          "covers": "部署前置规划",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "title": "大规模k8s集群网络架构与高性能深入",
+      "topics": [
+        "calico BGP 与 RR",
+        "overlay/underlay",
+        "vxlan/ipip",
+        "NetworkPolicy",
+        "eBPF 数据面"
+      ],
+      "resources": [
+        {
+          "title": "11.K8S网络之calico bgp rr & ipip",
+          "author": "七天01",
+          "url": "https://www.bilibili.com/video/BV17L4y1t7Z1",
+          "type": "video",
+          "episodes": 1,
+          "covers": "calico BGP/RR/IPIP",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Flannel、Calico、Cilium 到底怎么选？三大 CNI 的底层路线之争",
+          "author": "混合云架构师星海",
+          "url": "https://www.bilibili.com/video/BV1kVJ56bEpR",
+          "type": "video",
+          "episodes": 1,
+          "covers": "CNI选型",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "用 NetworkPolicy 控制 Kubernetes 的 Pod 网络联通和隔离",
+          "author": "OpenShift之家",
+          "url": "https://www.bilibili.com/video/BV1JZ4y117Nc",
+          "type": "video",
+          "episodes": 1,
+          "covers": "NetworkPolicy",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "01·Cilium 是什么？把网络、安全、可观测全塞进 eBPF｜Cilium 源码深读",
+          "author": "隔岸的灯塔_",
+          "url": "https://www.bilibili.com/video/BV1AcH16dEon",
+          "type": "video",
+          "episodes": 1,
+          "covers": "eBPF数据面",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "26",
+      "title": "k8s定制开发项目-生产环境调度不均衡问题复现与超卖源码开发实战",
+      "topics": [
+        "资源调度与打分",
+        "Scheduler 扩展",
+        "admission webhook 定制",
+        "requests/limits 与超卖"
+      ],
+      "resources": [
+        {
+          "title": "阿里技术大牛 30 分钟讲透 Kubernetes : 调度器的调度流程和算法介绍",
+          "author": "程序员小叨",
+          "url": "https://www.bilibili.com/video/BV12J411q7k4",
+          "type": "video",
+          "episodes": 1,
+          "covers": "调度流程与算法",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "#76 Kubernetes Scheduler 设计与实现 【 Go 夜读 】",
+          "author": "Go夜读",
+          "url": "https://www.bilibili.com/video/BV1N7411w7M9",
+          "type": "video",
+          "episodes": null,
+          "covers": "Scheduler Framework",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【Meetup 分享】深入浅出 K8s 准入控制",
+          "author": "KubeSphere",
+          "url": "https://www.bilibili.com/video/BV13F4m1A75n",
+          "type": "video",
+          "episodes": 1,
+          "covers": "Admission Webhook",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "K8s的资源配额与限制",
+          "author": "莲城的老李",
+          "url": "https://www.bilibili.com/video/BV1czUfYwEwz",
+          "type": "video",
+          "episodes": 1,
+          "covers": "requests/limits/超卖",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "27",
+      "title": "k8s云原生GPU算力相关",
+      "topics": [
+        "GPU 驱动与 CUDA",
+        "device-plugin",
+        "gpu-operator",
+        "vGPU 与虚拟化",
+        "容器内 GPU"
+      ],
+      "resources": [
+        {
+          "title": "阿里技术大牛 30 分钟讲透 Kubernetes : GPU 管理和 Device Plugin 工作机制",
+          "author": "程序员小叨",
+          "url": "https://www.bilibili.com/video/BV1BJ411i7Yo",
+          "type": "video",
+          "episodes": 1,
+          "covers": "device-plugin",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "13. k8s 的gpu operator 的部署测试",
+          "author": "YugeOps",
+          "url": "https://www.bilibili.com/video/BV1ZRkVB3E68",
+          "type": "video",
+          "episodes": 1,
+          "covers": "gpu-operator",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "CUDA编程基础入门系列（持续更新）",
+          "author": "程序口袋",
+          "url": "https://www.bilibili.com/video/BV1sM4y1x7of",
+          "type": "video",
+          "episodes": 24,
+          "covers": "CUDA编程",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【AI Infra 一小时入门】GPU、CUDA、vLLM、PyTorch、KV Cache、Triton、K8s、Ray，一次搞懂大模型背后的技术体系",
+          "author": "鸽鸽王分王",
+          "url": "https://www.bilibili.com/video/BV1Fuxf6aEgJ",
+          "type": "video",
+          "episodes": 1,
+          "covers": "算力全景",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "About the NVIDIA GPU Operator &#8212; NVIDIA GPU Operator",
+          "author": "NVIDIA",
+          "url": "https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/index.html",
+          "type": "doc",
+          "episodes": null,
+          "covers": "官方文档",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "28",
+      "title": "生产环境全链路灰度方案",
+      "topics": [
+        "istio 流量治理",
+        "灰度发布策略",
+        "全链路灰度"
+      ],
+      "resources": [
+        {
+          "title": "k8s服务网格(Service Mesh)的istio灰度发布产品实战教程",
+          "author": "运维实战课程",
+          "url": "https://www.bilibili.com/video/BV1PRmhYsEAD",
+          "type": "video",
+          "episodes": 9,
+          "covers": "istio流量治理",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "基于Istio 的灰度发布实现",
+          "author": "Zack说AI",
+          "url": "https://www.bilibili.com/video/BV1Fm4y1A7x4",
+          "type": "video",
+          "episodes": 1,
+          "covers": "从0安装与切流",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "全链路灰度发布实践(绝对干货)",
+          "author": "leaf-dev",
+          "url": "https://www.bilibili.com/video/BV1D5F5zuEEK",
+          "type": "video",
+          "episodes": 3,
+          "covers": "全链路灰度设计",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Istio / 流量管理",
+          "author": "Istio",
+          "url": "https://istio.io/latest/zh/docs/concepts/traffic-management/",
+          "type": "doc",
+          "episodes": null,
+          "covers": "官方文档",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "29",
+      "title": "gitOps、AgoCD、jenkinsCI以及泳道环境设计",
+      "topics": [
+        "ArgoCD 与 GitOps",
+        "Jenkins CI 整合",
+        "泳道环境设计"
+      ],
+      "resources": [
+        {
+          "title": "Argo CD 系列视频教程",
+          "author": "开源面对面",
+          "url": "https://www.bilibili.com/video/BV17F411h7Zh",
+          "type": "video",
+          "episodes": 13,
+          "covers": "GitOps/ArgoCD",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "一小时玩转GitOps之ArgoCD",
+          "author": "王晓春老师",
+          "url": "https://www.bilibili.com/video/BV1NJ3v6qE5b",
+          "type": "video",
+          "episodes": 1,
+          "covers": "GitOps流水线",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "【尚硅谷】Jenkins教程（从配置到实战）",
+          "author": "尚硅谷",
+          "url": "https://www.bilibili.com/video/BV1bS4y1471A",
+          "type": "video",
+          "episodes": null,
+          "covers": "Jenkins Pipeline",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "Argo CD - Declarative GitOps CD for Kubernetes",
+          "author": "Argo Project",
+          "url": "https://argo-cd.readthedocs.io/en/stable/",
+          "type": "doc",
+          "episodes": null,
+          "covers": "官方文档",
+          "verified": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "30",
+      "title": "面向必备-高薪offer之道",
+      "topics": [
+        "简历撰写与优化",
+        "投递策略",
+        "面试技巧与自我介绍",
+        "背调与职业规划"
+      ],
+      "resources": [
+        {
+          "title": "大厂程序员带你做简历",
+          "author": "over_z",
+          "url": "https://www.bilibili.com/video/BV1meFyetENm",
+          "type": "video",
+          "episodes": 1,
+          "covers": "简历写法",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "3-8年后端开发简历优化：照着这样写，让HR连夜推你简历，面试邀约率提升200%！",
+          "author": "BIGBANG的vip呢",
+          "url": "https://www.bilibili.com/video/BV1kJ2vBJES4",
+          "type": "video",
+          "episodes": 9,
+          "covers": "简历优化",
+          "verified": "2026-11-19"
+        },
+        {
+          "title": "面试自我介绍：面试官让你自我介绍时，到底想听到什么？（含案例详解）【鹅姐|求职】",
+          "author": "鹅姐职场",
+          "url": "https://www.bilibili.com/video/BV1jy4y1j7N6",
+          "type": "video",
+          "episodes": 1,
+          "covers": "自我介绍与面试技巧",
+          "verified": "2026-11-19"
+        }
+      ]
+    }
+  ]
+}
